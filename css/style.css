@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  margin: 30px 0;
+  color: #fdcb6e
+}
+
+p {
+  color: #fff;
+}
+
+#button {
+  background: #fdcb6e;
+  color: #000;
+  border-color: transparent;
+  margin: 20px 0;
+}
+
+.success, .error {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: #00b894;
+  text-align: center;
+}
+
+.error {
+  background: #d63031;
+  text-align: center;
+}
+
+.delete {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+  
+th {
+  color: #fdcb6e;
+}
+
+td, th {
+  text-align: center;
+}
+
+tbody > tr {
+  background: #fff;
+  color: #000;
+}
+
+tbody > tr:nth-child(2){
+  background: #ffeaa7;
+}
