@@ -68,6 +68,6 @@ tbody > tr {
   color: #000;
 }
 
-tbody > tr:nth-child(2){
+tbody > tr:nth-child(odd){
   background: #ffeaa7;
 }
