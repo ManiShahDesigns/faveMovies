@@ -127,10 +127,10 @@ document.getElementById('movie-form').addEventListener('submit', function(e){
         director = document.getElementById('director').value,
         year = document.getElementById('year').value;
   
-    // Instantiate the Movie constructor
+    // Init the Movie class
     const movie = new Movie(title, director, year);
   
-    // Instantiate the UI constructor
+    // Init the UI class
     const ui = new UI();
   
     // Validate 
@@ -158,7 +158,7 @@ document.getElementById('movie-form').addEventListener('submit', function(e){
   // Event Listener for the delete button 
   document.getElementById('movie-list').addEventListener('click', function(e){
 
-    // Instantiate the UI constructor
+    // Init the UI class
     const ui = new UI();
   
     // Delete movie from UI function
